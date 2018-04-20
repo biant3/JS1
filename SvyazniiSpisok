@@ -103,6 +103,7 @@ SvyazniiSpisok.prototype.sum = function(svyazniiSpisok2){
 		  vUme=0;}
           result.add(newElement);
       }
+      if (vUme!=0) result.add(vUme);
       result.show();
   }
   
